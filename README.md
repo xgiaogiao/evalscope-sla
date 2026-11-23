@@ -20,7 +20,7 @@
 **全部功能保留、全部可经自然语言使用**：摸高线为深度封装（三大场景组自动配置+汇总），
 其余直达 kit 原生命令。
 
-- 设计文档：[docs/DESIGN.md](docs/DESIGN.md)（架构/决策/场景覆盖矩阵）
+- 设计文档：[设计文档.md](设计文档.md)（架构/决策/场景覆盖矩阵 + 7 幅 Mermaid 流程图）
 - 开发文档：[docs/DEVELOPMENT.md](docs/DEVELOPMENT.md)（kit 机制详解/脚本内部/扩展指南）
 - 工具全貌手册：[references/kit-overview.md](references/kit-overview.md)（六线命令/参数/产出/排障）
 - 运维排障：[references/operations.md](references/operations.md)
@@ -115,4 +115,4 @@ skill 每次启动前会向你复述：场景组/长度/上限/SLA/目标服务�
 | `references/operations.md` | 进度查询/停止/重跑/排障表/partial 语义 |
 | `scripts/gen_group_config.py` | 部署到压测机：参数→组级 override YAML（数据集条数自动预算） |
 | `scripts/collect_results.py` | 部署到压测机：结果 JSON→Markdown 性能表 |
-| `docs/DESIGN.md` / `docs/DEVELOPMENT.md` | 设计文档 / 开发文档 |
+| `设计文档.md` / `docs/DEVELOPMENT.md` | 设计文档（含流程图）/ 开发文档 |
